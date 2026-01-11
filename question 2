@@ -1,0 +1,6 @@
+# Ask the user to enter total purchase amount
+total_purchase = float(input("Enter your total purchase (RM): "))
+
+# Condition checking
+if total_purchase > 100:
+    print("You get a discount!")
