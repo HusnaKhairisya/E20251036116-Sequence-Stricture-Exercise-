@@ -1,0 +1,14 @@
+# Ask the user to enter their score
+score = int(input("Enter your score: "))
+
+# Nested if-else for grade classification
+if score >= 80:
+    print("Grade A")
+else:
+    if score >= 60:
+        print("Grade B")
+    else:
+        if score >= 50:
+            print("Grade C")
+        else:
+            print("Fail")
