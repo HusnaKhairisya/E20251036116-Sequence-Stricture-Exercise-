@@ -1,0 +1,8 @@
+# Ask the user to enter their score
+score = int(input("Enter your score: "))
+
+# Decision using if-else
+if score >= 50:
+    print("Pass")
+else:
+    print("Fail")
