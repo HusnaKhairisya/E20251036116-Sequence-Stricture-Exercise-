@@ -1,0 +1,12 @@
+# Ask the user to enter their role and access level
+user_type = input("Enter user type (staff/other): ")
+access_level = int(input("Enter access level: "))
+
+# Nested if-else for access control
+if user_type.lower() == "staff":
+    if access_level >= 5:
+        print("Access granted")
+    else:
+        print("Access denied: insufficient level")
+else:
+    print("Access denied: staff only")
